@@ -7,12 +7,12 @@ function setup() {
 function setup() {
     createCanvas(windowWidth, windowHeight); // Create canvas to fit the screen
     noFill(); // No fill for shapes
-    strokeWeight(1); // Thickness of the shape lines
+    strokeWeight(2.5); // Thickness of the shape lines
 }
 
 function draw() {
     clear();
-    //background(18, 18, 18, 0); // Slightly transparent background for fading effect
+    
 
     // Center of the canvas
     translate(width / 2, height / 2);
