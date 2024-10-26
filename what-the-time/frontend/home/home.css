@@ -4,7 +4,7 @@ body, html {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url('home.jpg'); /* Replace with the path to your image */
+    background-image: url('home2.jpg'); /* Replace with the path to your image */
     background-size: cover; /* Ensures the image covers the whole screen */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -17,7 +17,7 @@ body, html {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.8); /* Dark translucent background */
+    background-color: rgba(0, 0, 0, 0); /* Dark translucent background */
     width: 100%;
     position: fixed;
     top: 0;
@@ -46,7 +46,8 @@ body, html {
 }
 
 .nav-menu li a:hover {
-    color: #9b59b6; /* Color change on hover */
+    color: #FF5E00
+    ; /* Color change on hover */
 }
 
 /* Centered Home Text */
